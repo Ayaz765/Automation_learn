@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automationsuit">
+
+<parameter name="URL" value="https://uatbrokerportal.hoxtoninsuranceservices.com/Login"/>
+<parameter name="USERNAME" value="yashaswini.malviya@xceedance.com"/>
+<parameter name="PASSWARD" value="Pass@12345"/>
+  <test thread-count="5" name="Test">
+<parameter name="Brokeremail" value="ayazahmad876@gmail.com"/>
+
+    <classes>
+      <class name="Hoxton.UserMangement"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Automationsuit -->

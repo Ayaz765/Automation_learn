@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UserManagment]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="UM(failed)">
+    <classes>
+      <class name="Hoxton.UserMangement">
+        <methods>
+          <include name="close"/>
+          <include name="AddnewUser"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Hoxton.UserMangement -->
+    </classes>
+  </test> <!-- UM(failed) -->
+</suite> <!-- Failed suite [UserManagment] -->
